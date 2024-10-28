@@ -1190,6 +1190,10 @@
   border: 1px solid #e5efff;
   border-radius: 10px;
 }
+.form-input button{
+  padding: 12px 18px;
+  margin-left: 100px;
+}
 
 .input::placeholder {
   font-family: "Poppins";
