@@ -199,10 +199,14 @@
 }
 
 .hero-img {
-  background-image: url("../assets/bg-frame.png");
+  background-image: url("../assets/bg-img.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
+  border-radius: 12px;
+  color: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
+
 }
 
 .hero-content {
@@ -236,7 +240,7 @@
 }
 
 .hero-tabs {
-  max-width: 950px;
+  
   width: 950px;
 }
 
@@ -326,8 +330,7 @@
   text-align: left;
 }
 
-.search-btn {
-}
+
 
 .search-btn button {
   background-color: #1db3b3;
@@ -357,7 +360,7 @@
     flex-direction: column;
     justify-content: center;
     min-height: 60vh;
-    padding: 20px;
+    padding: 10px;
     gap: 0px;
     width: 270px;
     
@@ -371,19 +374,22 @@
   }
 
   .hero-content p {
-    width: 220px;
+    width: 250px;
 
     font-size: 16px;
   }
   .hero-tabs {
-    width: 210px;
+   width: 250px;
   }
+   
   .hero-filter {
     display: flex;
     gap: 5px;
     justify-content: flex-start;
+    flex-direction: column;
+    width: 250px;
     align-items: center;
-    padding: 20px 20px;
+    padding: 5px 5px;
     flex-wrap: wrap;
    
     border-radius: 12px;
@@ -745,4 +751,163 @@ text-align: left;
     border-radius: 14px;
   }
   
+}
+/*-----------------------find residence responsive------------------*/
+
+@media (max-width:768px){
+  .find-residence {
+    padding-top:50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .find-residence-content-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+  .find-residence-content-left h3{
+    font-family: 'Poppins';
+    margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #1f1f1f;
+  
+  }
+  .find-residence-content-left span{
+    font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #1f1f1f;
+  
+  }
+  .find-residence-content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .find-residence-content-right .lists{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .lists p{
+    margin-bottom: 0px;
+    font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1f1f1f;
+  
+  }
+  .grid{
+    padding: 8px 12px;
+    background:  #E8F7F7;
+    border: 1px solid  #4AC2C2;
+    border-radius: 8px;
+  
+  }
+}
+/*----------------------------compare list responsive-------------------*/
+@media (max-width:768px){
+  .compare-list {
+ 
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .compare-list-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+  .compare-list-left h3{
+    font-family: 'Poppins';
+   margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    
+  color: #1f1f1f;
+  
+  }
+  .compare-list-left span{
+    font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #1f1f1f;
+  
+  }
+  .compare-list-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .compare-list-right .lists{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .lists p{
+    margin-bottom: 0px;
+    font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1f1f1f;
+  
+  }
+  .grid{
+    padding: 8px 12px;
+    background:  #F2F4F7;
+  
+    border: 1px solid  #4AC2C2;
+    border-radius: 8px;
+  
+  }
+  .delete{
+    padding: 8px 12px;
+    background:  #FEF3F2;
+  
+    border: 1px solid  #FEF3F2;
+    border-radius: 8px;
+   
+  
+  }
+  .delete p{
+    color:  #F04438;
+  }
+  .compare-btn{
+    padding-left: 28px;
+  }
+  .compare-btn button{
+    padding: 10px 16px;
+    border: 1px solid  #1DB3B3;
+    border-radius: 8px;
+    background-color: #1DB3B3;
+    color: #fff;
+    font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  
+  }
 }
