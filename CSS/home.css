@@ -93,9 +93,16 @@
   font-weight: 600;
   line-height: 24px;
 }
+.no-bg:hover{
+  background-color: #1db3b3;
+  
+}
 .no-bg a {
   text-decoration: none;
   color: #344054;
+}
+.no-bg a:hover{
+  color: white;
 }
 
 .hamburger {
