@@ -12,6 +12,13 @@
   padding: 0 50px;
   margin: 0 auto;
 }
+@media(max-width:521px){
+  .house-price-info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+}
 
 .container-fluid {
   display: flex;
@@ -618,7 +625,6 @@
   }
 }
 
-
 /*-----------------------find residence responsive------------------*/
 
 @media (max-width: 768px) {
@@ -940,7 +946,6 @@
 }
 /*---------------------Footer--------------------*/
 
-
 .footer {
   padding: 108px 60px;
   background-color: black;
@@ -961,7 +966,6 @@
 .footer-left-side-1 .footer-logo {
   width: 144px;
   height: 40px;
-  
 }
 
 .footer-left-side-1 p {
@@ -1021,21 +1025,19 @@
 /*-----------------footer responsive-----------------*/
 @media (max-width: 1024px) {
   .footer {
-   display: grid;
-   grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
   }
 }
 @media (max-width: 768px) {
   .footer {
     padding: 20px;
-   
-    grid-template-columns:  1fr;
-   
+
+    grid-template-columns: 1fr;
+
     gap: 20px;
-   
-    
   }
-  
+
   .footer-left-side-1 {
     display: flex;
     justify-content: flex-start;
@@ -1043,28 +1045,27 @@
     gap: 20px;
     flex-direction: column;
   }
-  
+
   .footer-left-side-1 .footer-logo {
     width: 144px;
     height: 40px;
-   
   }
-  
+
   .footer-left-side-1 p {
     width: 100%;
-    color:white;
+    color: white;
   }
-  
+
   .footer-left-side-2,
   .footer-right-side-1,
   .footer-right-side-2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  
+
     gap: 16px;
   }
-  
+
   .footer-left-side-2 ul,
   .footer-right-side-1 ul,
   .footer-right-side-2 ul {
@@ -1073,7 +1074,7 @@
     gap: 10px;
     padding-left: 0px;
   }
-  
+
   .footer-left-side-2 ul li,
   .footer-right-side-1 ul li,
   .footer-right-side-2 ul li {
@@ -1084,7 +1085,7 @@
     line-height: 20px;
     color: white;
   }
-  
+
   .footer-left-side-2 h2,
   .footer-right-side-1 h2,
   .footer-right-side-2 h2 {
@@ -1097,15 +1098,14 @@
   .footer-right-side-2 ul {
     width: 100%;
   }
-  
+
   .footer-right-side-2 ul li {
     display: flex;
     flex-direction: column;
-    
+
     padding: 12px 12px 12px 12px;
     width: 100%;
     background-color: #363636;
     border-radius: 14px;
   }
-  
 }

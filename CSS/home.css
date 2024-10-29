@@ -12,6 +12,13 @@
   padding: 0 50px;
   margin:0 auto;
 }
+@media (max-width:768px) {
+  .web-container{
+    padding: 0;
+    margin: auto;
+  }
+  
+}
 
 
 .container-fluid {
@@ -194,7 +201,7 @@
   padding: 0px 20px;
 }
 
-.hero-img {
+.hero .hero-img {
   background-image: url("../assets/bg-frame.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -344,7 +351,7 @@
 /*--------------------------hero responsive------------------*/
 
 @media (max-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     background-size: cover;
     height: 100vh;
     border-radius: 12px;
