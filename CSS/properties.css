@@ -93,15 +93,14 @@
   font-weight: 600;
   line-height: 24px;
 }
-.no-bg:hover{
+.no-bg:hover {
   background-color: #1db3b3;
-  
 }
 .no-bg a {
   text-decoration: none;
   color: #344054;
 }
-.no-bg a:hover{
+.no-bg a:hover {
   color: white;
 }
 
@@ -165,9 +164,8 @@
     background-color: #ffffff;
     text-align: center;
     gap: 15px;
-    
+
     z-index: auto;
-   
   }
 
   .nav-left ul li a {
@@ -186,7 +184,6 @@
     gap: 10px;
     padding-bottom: 20px;
     z-index: 100;
-    
   }
 }
 /*-------------------navbar responsive----------------------*/
@@ -205,8 +202,7 @@
   height: 100vh;
   border-radius: 12px;
   color: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
-
+    linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
 }
 
 .hero-content {
@@ -240,7 +236,6 @@ linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
 }
 
 .hero-tabs {
-  
   width: 950px;
 }
 
@@ -330,8 +325,6 @@ linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
   text-align: left;
 }
 
-
-
 .search-btn button {
   background-color: #1db3b3;
   padding: 12px 18px;
@@ -363,7 +356,6 @@ linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
     padding: 10px;
     gap: 0px;
     width: 270px;
-    
   }
 
   .hero-content h2 {
@@ -379,9 +371,9 @@ linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
     font-size: 16px;
   }
   .hero-tabs {
-   width: 250px;
+    width: 250px;
   }
-   
+
   .hero-filter {
     display: flex;
     gap: 5px;
@@ -391,7 +383,7 @@ linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
     align-items: center;
     padding: 5px 5px;
     flex-wrap: wrap;
-   
+
     border-radius: 12px;
   }
   .hero-location p {
@@ -414,15 +406,11 @@ linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
   }
 
   .hero-search .search {
-  
     font-size: 14px;
-  
   }
 
   .hero-search p {
-    
     font-size: 14px;
-    
   }
 
   .search-btn button {
@@ -436,156 +424,144 @@ linear-gradient(260.84deg, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.2) 100%);
 
 /*-------------------------find residence-----------------*/
 .find-residence {
-  padding-top:50px;
+  padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
 }
-.find-residence-content-left{
+.find-residence-content-left {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 14px;
 }
-.find-residence-content-left h3{
-  font-family: 'Poppins';
+.find-residence-content-left h3 {
+  font-family: "Poppins";
   margin-bottom: 0;
-font-size: 24px;
-font-weight: 600;
-line-height: 36px;
-text-align: left;
-color: #1f1f1f;
-
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #1f1f1f;
 }
-.find-residence-content-left span{
-  font-family: 'Poppins';
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-text-align: left;
-color: #1f1f1f;
-
+.find-residence-content-left span {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #1f1f1f;
 }
-.find-residence-content-right{
+.find-residence-content-right {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
 }
-.find-residence-content-right .lists{
+.find-residence-content-right .lists {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 8px;
 }
-.lists p{
+.lists p {
   margin-bottom: 0px;
-  font-family: 'Poppins';
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-color: #1f1f1f;
-
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1f1f1f;
 }
-.grid{
+.grid {
   padding: 8px 12px;
-  background:  #E8F7F7;
-  border: 1px solid  #4AC2C2;
+  background: #e8f7f7;
+  border: 1px solid #4ac2c2;
   border-radius: 8px;
-
 }
 
 /*-----------------------compare list---------------------*/
 .compare-list {
- 
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
 }
-.compare-list-left{
+.compare-list-left {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 14px;
 }
-.compare-list-left h3{
-  font-family: 'Poppins';
- margin-bottom: 0;
+.compare-list-left h3 {
+  font-family: "Poppins";
+  margin-bottom: 0;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   text-align: left;
-  
-color: #1f1f1f;
 
+  color: #1f1f1f;
 }
-.compare-list-left span{
-  font-family: 'Poppins';
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-text-align: left;
-color: #1f1f1f;
-
+.compare-list-left span {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #1f1f1f;
 }
-.compare-list-right{
+.compare-list-right {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
 }
-.compare-list-right .lists{
+.compare-list-right .lists {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 8px;
 }
-.lists p{
+.lists p {
   margin-bottom: 0px;
-  font-family: 'Poppins';
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-color: #1f1f1f;
-
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #1f1f1f;
 }
-.grid{
+.grid {
   padding: 8px 12px;
-  background:  #F2F4F7;
+  background: #f2f4f7;
 
-  border: 1px solid  #4AC2C2;
+  border: 1px solid #4ac2c2;
   border-radius: 8px;
-
 }
-.delete{
+.delete {
   padding: 8px 12px;
-  background:  #FEF3F2;
+  background: #fef3f2;
 
-  border: 1px solid  #FEF3F2;
+  border: 1px solid #fef3f2;
   border-radius: 8px;
- 
-
 }
-.delete p{
-  color:  #F04438;
+.delete p {
+  color: #f04438;
 }
-.compare-btn{
+.compare-btn {
   padding-left: 28px;
 }
-.compare-btn button{
+.compare-btn button {
   padding: 10px 16px;
-  border: 1px solid  #1DB3B3;
+  border: 1px solid #1db3b3;
   border-radius: 8px;
-  background-color: #1DB3B3;
+  background-color: #1db3b3;
   color: #fff;
-  font-family: 'Poppins';
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-text-align: left;
-
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
 }
 
 /*---------------------Footer--------------------*/
@@ -610,7 +586,6 @@ text-align: left;
 .footer-left-side-1 .footer-logo {
   width: 144px;
   height: 40px;
-  
 }
 
 .footer-left-side-1 p {
@@ -671,14 +646,11 @@ text-align: left;
 @media (max-width: 768px) {
   .footer {
     padding: 20px;
-   
-    
-   
+
     gap: 20px;
     flex-direction: column;
-    
   }
-  
+
   .footer-left-side-1 {
     display: flex;
     justify-content: flex-start;
@@ -686,28 +658,27 @@ text-align: left;
     gap: 20px;
     flex-direction: column;
   }
-  
+
   .footer-left-side-1 .footer-logo {
     width: 144px;
     height: 40px;
-   
   }
-  
+
   .footer-left-side-1 p {
     width: 100%;
-    color:white;
+    color: white;
   }
-  
+
   .footer-left-side-2,
   .footer-right-side-1,
   .footer-right-side-2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  
+
     gap: 16px;
   }
-  
+
   .footer-left-side-2 ul,
   .footer-right-side-1 ul,
   .footer-right-side-2 ul {
@@ -716,7 +687,7 @@ text-align: left;
     gap: 10px;
     padding-left: 0px;
   }
-  
+
   .footer-left-side-2 ul li,
   .footer-right-side-1 ul li,
   .footer-right-side-2 ul li {
@@ -727,7 +698,7 @@ text-align: left;
     line-height: 20px;
     color: white;
   }
-  
+
   .footer-left-side-2 h2,
   .footer-right-side-1 h2,
   .footer-right-side-2 h2 {
@@ -740,174 +711,328 @@ text-align: left;
   .footer-right-side-2 ul {
     width: 100%;
   }
-  
+
   .footer-right-side-2 ul li {
     display: flex;
     flex-direction: column;
-    
+
     padding: 12px 12px 12px 12px;
     width: 100%;
     background-color: #363636;
     border-radius: 14px;
   }
-  
 }
 /*-----------------------find residence responsive------------------*/
 
-@media (max-width:768px){
+@media (max-width: 768px) {
   .find-residence {
-    padding-top:50px;
+    padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  .find-residence-content-left{
+  .find-residence-content-left {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 14px;
   }
-  .find-residence-content-left h3{
-    font-family: 'Poppins';
+  .find-residence-content-left h3 {
+    font-family: "Poppins";
     margin-bottom: 0;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 36px;
-  text-align: left;
-  color: #1f1f1f;
-  
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #1f1f1f;
   }
-  .find-residence-content-left span{
-    font-family: 'Poppins';
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: left;
-  color: #1f1f1f;
-  
+  .find-residence-content-left span {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #1f1f1f;
   }
-  .find-residence-content-right{
+  .find-residence-content-right {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
   }
-  .find-residence-content-right .lists{
+  .find-residence-content-right .lists {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 8px;
   }
-  .lists p{
+  .lists p {
     margin-bottom: 0px;
-    font-family: 'Poppins';
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  color: #1f1f1f;
-  
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1f1f1f;
   }
-  .grid{
+  .grid {
     padding: 8px 12px;
-    background:  #E8F7F7;
-    border: 1px solid  #4AC2C2;
+    background: #e8f7f7;
+    border: 1px solid #4ac2c2;
     border-radius: 8px;
-  
   }
 }
 /*----------------------------compare list responsive-------------------*/
-@media (max-width:768px){
+@media (max-width: 768px) {
   .compare-list {
- 
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
   }
-  .compare-list-left{
+  .compare-list-left {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 14px;
   }
-  .compare-list-left h3{
-    font-family: 'Poppins';
-   margin-bottom: 0;
+  .compare-list-left h3 {
+    font-family: "Poppins";
+    margin-bottom: 0;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     text-align: left;
-    
-  color: #1f1f1f;
-  
+
+    color: #1f1f1f;
   }
-  .compare-list-left span{
-    font-family: 'Poppins';
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: left;
-  color: #1f1f1f;
-  
+  .compare-list-left span {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #1f1f1f;
   }
-  .compare-list-right{
+  .compare-list-right {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 12px;
   }
-  .compare-list-right .lists{
+  .compare-list-right .lists {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 8px;
   }
-  .lists p{
+  .lists p {
     margin-bottom: 0px;
-    font-family: 'Poppins';
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #1f1f1f;
+  }
+  .grid {
+    padding: 8px 12px;
+    background: #f2f4f7;
+
+    border: 1px solid #4ac2c2;
+    border-radius: 8px;
+  }
+  .delete {
+    padding: 8px 12px;
+    background: #fef3f2;
+
+    border: 1px solid #fef3f2;
+    border-radius: 8px;
+  }
+  .delete p {
+    color: #f04438;
+  }
+  .compare-btn {
+    padding-left: 28px;
+  }
+  .compare-btn button {
+    padding: 10px 16px;
+    border: 1px solid #1db3b3;
+    border-radius: 8px;
+    background-color: #1db3b3;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+
+/*------------------------filter--------------------*/
+.filter {
+  display: flex;
+
+  gap: 20px;
+}
+
+.filter-card-left {
+  gap: 0px;
+  border-radius: 12px;
+  width: 392px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 0px 20px 0px #0000001f;
+}
+.filter-card-left-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 24px;
+  border-radius: 12px 12px 0px 0px;
+  border-top: 1px solid #d0d5dd;
+}
+.filter-card-left-head h2 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.filter-card-left-head img {
+  width: 32px;
+  height: 32px;
+}
+.filter-card-left-options {
+  display: flex;
+  gap: 28px;
+
+  padding: 18px 24px 18px 24px;
+
+  border-style: solid;
+
+  border-color: #d0d5dd;
+}
+.filter-card-left-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.filter-card-left-option p {
+  font-family: "Poppins";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  color: #1f1f1f;
-  
-  }
-  .grid{
-    padding: 8px 12px;
-    background:  #F2F4F7;
-  
-    border: 1px solid  #4AC2C2;
-    border-radius: 8px;
-  
-  }
-  .delete{
-    padding: 8px 12px;
-    background:  #FEF3F2;
-  
-    border: 1px solid  #FEF3F2;
-    border-radius: 8px;
-   
-  
-  }
-  .delete p{
-    color:  #F04438;
-  }
-  .compare-btn{
-    padding-left: 28px;
-  }
-  .compare-btn button{
-    padding: 10px 16px;
-    border: 1px solid  #1DB3B3;
-    border-radius: 8px;
-    background-color: #1DB3B3;
-    color: #fff;
-    font-family: 'Poppins';
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
+
+  margin-bottom: 0;
+}
+.filter-card-left-dropdown {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 18px 24px 18px 24px;
+  gap: 28px;
+}
+.filter-card-left-dropdown p {
+  margin-bottom: 0;
+
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
   text-align: left;
+}
+
+.filter-right{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+.card-right{
   
-  }
+padding: 18px;
+gap: 12px;
+border-radius: 12px;
+
+box-shadow: 0px 0px 18px 0px #0000001A;
+
+border: 1px solid  #D0D5DD;
+width: 460px;
+
+}
+.card-info{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.card-info img{
+  width:100%;
+}
+.card-info-head{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.card-info-head h2{
+  
+font-family: 'Poppins';
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+margin-bottom: 0;
+color:#1f1f1f
+}
+.card-info-head p{
+  
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-bottom: 0;
+
+}
+.card-house-info{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.house-infos{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.house-info{
+  display: flex;
+  gap: 10px;
+  
+}
+.house-info .info{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  
+}
+.house-price-info{
+  display: flex;
+  justify-content: space-between;
+}
+.price-info{
+  display: flex;
+  flex-direction: column;
+  
+}
+.price-info h3{
+  font-family: 'Poppins';
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
 }
