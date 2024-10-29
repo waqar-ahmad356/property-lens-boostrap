@@ -1029,11 +1029,13 @@
 }
 
 .digital-journey-card img {
-  width: 577px;
+  width: 100%;
+  
 }
 
 .digital-journey-card p {
   text-align: left;
+  width: 100%;
   
 }
 

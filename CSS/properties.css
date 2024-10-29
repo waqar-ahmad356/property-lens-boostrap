@@ -949,8 +949,8 @@
 }
 
 .filter-right{
-  display: flex;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 5px;
 }
 .card-right{
@@ -962,7 +962,7 @@ border-radius: 12px;
 box-shadow: 0px 0px 18px 0px #0000001A;
 
 border: 1px solid  #D0D5DD;
-width: 460px;
+
 
 }
 .card-info{
