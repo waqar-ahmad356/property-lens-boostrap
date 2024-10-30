@@ -344,31 +344,48 @@
   gap: 10px;
 }
 /*--------------------------hero responsive------------------*/
+@media (max-width:521px){
+
+}
 @media (max-width: 768px) {
   .hero-img {
     background-size: cover;
-    height: 100vh;
+    height: 88vh;
     border-radius: 12px;
+  }
+  .nav.nav-tabs{
+    flex-wrap: nowrap;
+  }
+  .nav-item .nav-link{
+    font-size: 12px;
+  }
+  .hero-filter {
+   
+    width: 250px;
+  }
+  .nav-tabs{
+    width: 250px;
   }
   .hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 86vh;
     padding: 10px;
     gap: 0px;
-    width: 270px;
+    width: 280px;
   }
 
   .hero-content h2 {
     font-family: "Poppins";
-    font-size: 24px;
+    font-size: 36px;
 
-    line-height: 32px;
+    line-height: 42px;
   }
 
   .hero-content p {
     width: 250px;
+    margin-bottom: 5px;
 
     font-size: 16px;
   }
@@ -440,6 +457,16 @@
 
     border-radius: 12px;
   }
+  .hero-content h2{
+    font-size: 24px;
+
+    line-height: 32px;
+  }
+  .hero-content {
+    
+    width: 270px;
+  }
+  
 }
 
 /*-------------------------find residence-----------------*/
