@@ -30,4 +30,21 @@ function toggleMenu() {
     dropdownContent.classList.toggle("show");
   }
   
+  function animateCounter(element, target) {
+    let count = 0;
+    const increment = Math.ceil(target / 10); // Adjust speed here
+    const interval = setInterval(() => {
+        count += increment;
+        if (count >= target) {
+            count = target;
+            clearInterval(interval);
+        }
+        element.innerText = count;
+    }, 100); // Adjust timing here
+}
+
+document.querySelectorAll('.number').forEach(element => {
+    const target = parseInt(element.getAttribute('data-target'));
+    animateCounter(element, target);
+});
   
