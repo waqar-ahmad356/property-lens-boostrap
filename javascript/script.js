@@ -47,4 +47,30 @@ document.querySelectorAll('.number').forEach(element => {
     const target = parseInt(element.getAttribute('data-target'));
     animateCounter(element, target);
 });
-  
+
+function increment(id) {
+  const countElement = document.getElementById(id);
+  let count = parseInt(countElement.innerText);
+  countElement.innerText = count + 1;
+}
+
+function decrement(id) {
+  const countElement = document.getElementById(id);
+  let count = parseInt(countElement.innerText);
+  if (count > 0) { // Prevent negative numbers
+      countElement.innerText = count - 1;
+  }
+}
+function increment(id=bathroom-count) {
+  const countElement = document.getElementById(id);
+  let count = parseInt(countElement.innerText);
+  countElement.innerText = count + 1;
+}
+
+function decrement(id=bathroom-count) {
+  const countElement = document.getElementById(id);
+  let count = parseInt(countElement.innerText);
+  if (count > 0) { // Prevent negative numbers
+      countElement.innerText = count - 1;
+  }
+}

@@ -889,6 +889,92 @@
 .dropdown-content.show {
   display: block;
 }
+.dropdown-property-type{
+  display: flex;
+  flex-wrap: wrap;
+}
+ .type-check{
+  display: flex;
+  gap: 10px;
+  padding: 10px 24px;
+}
+input[type="checkbox"]:checked{
+ background-color: red;
+}
+.dropdown-portions{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.dropdown-parking{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.dropdown-outdoor{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.type-check p{
+  margin-bottom: 0;
+  
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #1f1f1f;
+
+}
+.dropdown-rooms{
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  gap: 12px;
+  
+}
+.dropdown-rooms .bedrooms{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.dropdown-rooms .bathrooms{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.bedrooms p,.bathrooms p{
+  
+font-family: 'Poppins';
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+margin-bottom: 0;
+
+}
+.inc-dec-btn{
+  display: flex;
+  gap: 10px;
+  background:  #EAECF0;
+  border-radius: 8px;
+  align-items: center;
+
+}
+.inc-dec-btn p{
+  margin-bottom: 0;
+}
+.inc-dec-btn button{
+  background-color: transparent;
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+  border: 1.45px solid  #D0D5DD;
+  background: #fff;
+}
 .filter-card-left-dropdown p {
   margin-bottom: 0;
 

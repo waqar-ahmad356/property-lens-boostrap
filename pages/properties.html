@@ -171,7 +171,53 @@
               <img src="/assets/dropdown.png" alt="" />
             </div>
             <div class="dropdown-content">
-              <p>Residential, Commercial, Industrial, etc.</p>
+              <div class="dropdown-property-type">
+                <div class="type-check">
+                  <input type="checkbox" checked/>
+                  <p>All type</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>House</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Villa</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Land</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Rural</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Acreage</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Apartment & Unit</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Townhouse</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Block of Units</p>
+                  
+                </div>
+              </div>
             </div>
           
             <div class="filter-card-left-dropdown" onclick="toggleDropdown(this)">
@@ -187,7 +233,24 @@
               <img src="/assets/dropdown.png" alt="" />
             </div>
             <div class="dropdown-content">
-              <p>1 Room, 2 Rooms, 3 Rooms, etc.</p>
+              <div class="dropdown-rooms">
+              <div class="bedrooms">
+                <p>Bedroom</p>
+                <div class="inc-dec-btn">
+                <button onclick="decrement('bedroom-count')">-</button>
+                <p id="bedroom-count">9</p>
+                <button onclick="increment('bedroom-count')">+</button>
+              </div>
+              </div>
+              <div class="bathrooms">
+                <p>Bathroom</p>
+                <div class="inc-dec-btn">
+                  <button onclick="decrement('bathroom-count')">-</button>
+                  <p id="bathroom-count">9</p>
+                  <button onclick="increment('bathroom-count')">+</button>
+                </div>
+              </div>
+            </div>
             </div>
           
             <div class="filter-card-left-dropdown" onclick="toggleDropdown(this)">
@@ -195,7 +258,23 @@
               <img src="/assets/dropdown.png" alt="" />
             </div>
             <div class="dropdown-content">
-              <p>1 Portion, 2 Portions, etc.</p>
+             <div class="dropdown-portions">
+              <div class="type-check"> 
+                <input type="checkbox" checked/>
+                <p>Signle</p>
+                
+              </div>
+              <div class="type-check">
+                <input type="checkbox"/>
+                <p>Double</p>
+                
+              </div>
+              <div class="type-check">
+                <input type="checkbox"/>
+                <p>Triple</p>
+                
+              </div>
+             </div>
             </div>
           
             <div class="filter-card-left-dropdown" onclick="toggleDropdown(this)">
@@ -203,7 +282,18 @@
               <img src="/assets/dropdown.png" alt="" />
             </div>
             <div class="dropdown-content">
-              <p>Garage, Open Space, Covered Parking</p>
+              <div class="dropdown-parking">
+                <div class="type-check">
+                  <input type="checkbox" checked/>
+                  <p>Yes</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>No</p>
+                  
+                </div>
+              </div>
             </div>
           
             <div class="filter-card-left-dropdown" onclick="toggleDropdown(this)">
@@ -211,7 +301,54 @@
               <img src="/assets/dropdown.png" alt="" />
             </div>
             <div class="dropdown-content">
-              <p>Swimming Pool, Garden, BBQ Area, etc.</p>
+              <div class="dropdown-outdoor">
+                <div class="type-check">
+                  <input type="checkbox" checked/>
+                  <p>Shed</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Garage</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Balcony</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Swiming Pool</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Outdoor Area</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Undercover Parking</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Outdoor Spa</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Tennis Court</p>
+                  
+                </div>
+                <div class="type-check">
+                  <input type="checkbox"/>
+                  <p>Fully Fenced</p>
+                  
+                </div>
+                
+              </div>
             </div>
           </div>
           
