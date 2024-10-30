@@ -353,11 +353,11 @@
     background-size: cover;
     
     border-radius: 12px;
-    min-height: 87vh;
+    min-height: 83vh;
   }
   .hero-content h2{
-    font-size: 64px;
-    line-height: 84px;
+    font-size: 54px;
+    line-height: 60px;
   }
 }
 @media (max-width: 1024px) {
