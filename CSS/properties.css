@@ -940,12 +940,13 @@
   border-bottom: 1px solid lightgray;
   display: flex;
   justify-content: space-between;
-}
+}/*
 .price-info:not(:first-child){
   border-left: 1px solid lightgray; /* Adjust color as needed */
-  padding-left: 10px; 
+ /* padding-left: 10px; } */
 
-}
+
+
 .price-info {
   display: flex;
   flex-direction: column;
