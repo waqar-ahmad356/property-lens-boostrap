@@ -6,15 +6,25 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-.signup{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+
+.web-container {
     max-width: 1440px;
+    
+    
+  }
+  
+  
+.signup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 80px;
+    
+    
     
 }
 .signup-form{
-    width: 740px;
+    
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -40,20 +50,6 @@ letter-spacing: -0.02em;
 text-align: left;
 color:  #101828;
 
-}.signup-head-content {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-.signup-head-content p{
-    font-family: 'Poppins';
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-color: #475467;
-
-
 }
 .signup-input{
     display: flex;
@@ -74,6 +70,10 @@ text-align: left;
 color:#344054;
 
 
+}
+.signup-img img{
+    width: 100%;
+    height: 100%;
 }
 .input input::placeholder{
     font-family: 'Poppins';
@@ -105,11 +105,6 @@ box-shadow: 0px 1px 2px 0px #1018280D;
 
 
 }
-.forget-password{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 .input button{
     padding: 10px 16px;
     background-color: #1DB3B3;
@@ -137,13 +132,13 @@ line-height: 20px;
 color:  #1DB3B3;
 }
 
-/*---------------------login responsive-------------------------*/
+/*---------------------signup responsive-------------------------*/
 @media (max-width:768px){
     .signup{
-        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
         width: 100%;
         gap: 20px;
-        padding:20px 0px ;
+       padding-top:20px;
     }
    
     .signup-form{
@@ -162,12 +157,17 @@ color:  #1DB3B3;
     .signup-head{
         display: flex;
         flex-direction: column;
+        
         gap: 20px;
     }
     .signup-head h2{
-       
+        font-family: 'Poppins';
     font-size: 36px;
-    
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color:  #101828;
     
     }
     .signup-input{
@@ -176,55 +176,91 @@ color:  #1DB3B3;
         gap: 16px;
     }
     .signup-input .input{
-        
+        display: flex;
+        flex-direction: column;
         gap: 4px;
     }
     .input label{
-       
+        font-family: 'Poppins';
     font-size: 14px;
-    
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color:#344054;
     
     
     }
     .input input::placeholder{
-        
+        font-family: 'Poppins';
     font-size: 14px;
-  
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+     color:#667085;
     
     
     }
      input span{
-        
+        font-family: 'Poppins';
     font-size: 12px;
-  
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #475467;
     
     
     }
     .input input{
     padding: 10px;
     width: 100%;
-   
+    background-color:  #FFFFFF;
+    border: 1px solid  #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    
     
     }
     .input button{
         padding: 10px;
-       
+        background-color: #1DB3B3;
+        border: 1px solid  #1DB3B3;
+        border-radius: 8px;
+        color:white;
+        box-shadow: 0px 1px 2px 0px #1018280D;
     
         
     }
     .bottom-content p{
-       
+        font-family: 'Poppins';
     font-size: 12px;
-    
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
     
     }
     .bottom-content a{
-       
+        text-decoration: none;
+        font-family: 'Poppins';
     font-size: 12px;
-    
+    font-weight: 600;
+    line-height: 20px;
+    color:  #1DB3B3;
     }
     .signup-img img{
         width: 100%;
         
     }
+
+}
+@media (max-width:480px){
+    .signup{
+        grid-template-columns: 1fr;
+    }
+    .signup-form{
+        padding: 0 20px;
+    }
+    .signup-img img{
+        display: none;
+    }
+
 }
