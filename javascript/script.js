@@ -24,4 +24,10 @@ function toggleMenu() {
       document.removeEventListener('click', closeMenuOnClickOutside); // Remove listener after menu closes
     }
   }
+  function toggleDropdown(element) {
+    // Find the next sibling with the class "dropdown-content"
+    const dropdownContent = element.nextElementSibling;
+    dropdownContent.classList.toggle("show");
+  }
+  
   

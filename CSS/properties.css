@@ -843,6 +843,16 @@
   padding: 18px 24px 18px 24px;
   gap: 28px;
 }
+.dropdown-content {
+  display: none; /* Hidden by default */
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+.dropdown-content.show {
+  display: block;
+}
 .filter-card-left-dropdown p {
   margin-bottom: 0;
 
@@ -851,6 +861,9 @@
   font-weight: 500;
   line-height: 28px;
   text-align: left;
+}
+.filter-card-left-dropdown img{
+  cursor: pointer;
 }
 
 .filter-right {
