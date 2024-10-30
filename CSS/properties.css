@@ -529,11 +529,13 @@
 /*---------------find residene---------------------*/
 @media (max-width: 768px) {
   .find-residence {
-    padding: 20px;
-    display: flex;
+    padding: 0px 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    gap: 15px;
   }
   .find-residence-content-left {
-    gap: 5px;
+    
   }
   .find-residence-content-left h3 {
     font-size: 28px;
@@ -638,10 +640,17 @@
   text-align: left;
 }
 /*-----------------------compare responsive------------------*/
+@media (max-width:480px){
+  .compare-list.compare-list-left{
+    
+    justify-content: flex-start;
+  }
+}
 @media (max-width: 768px) {
   .compare-list {
-    padding: 20px;
-    display: flex;
+    padding: 0 20px;
+    padding-bottom: 0px;
+    gap: 15px;
   }
 
   .compare-list-left span {
@@ -967,10 +976,11 @@
   border-bottom: 1px solid lightgray;
   display: flex;
   justify-content: space-between;
-}/*
+}
 .price-info:not(:first-child){
   border-left: 1px solid lightgray; /* Adjust color as needed */
- /* padding-left: 10px; } */
+  padding-left: 10px; 
+} 
 
 
 
@@ -980,7 +990,7 @@
 }
 .price-info h3 {
   font-family: "Poppins";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 24px;
   text-align: left;
@@ -1010,6 +1020,13 @@ color: #4F5B5D;
   }
   .filter-right {
     grid-template-columns: 1fr;
+  }
+  .price-info h3{
+    font-size: 12px;
+
+  }
+  .price-info span{
+    font-size: 14px;
   }
 }
 /*---------------------Footer--------------------*/
