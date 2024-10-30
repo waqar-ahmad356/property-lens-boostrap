@@ -911,14 +911,27 @@
   display: flex;
   gap: 10px;
 }
+.house-info .info:not(:first-child) {
+  border-left: 1px solid lightgray; /* Adjust color as needed */
+  padding-left: 10px; /* Optional: Add padding to create space from the border */
+}
 .house-info .info {
   display: flex;
   gap: 6px;
   align-items: center;
 }
 .house-price-info {
+  border-top: 1px solid lightgray;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid lightgray;
   display: flex;
   justify-content: space-between;
+}
+.price-info:not(:first-child){
+  border-left: 1px solid lightgray; /* Adjust color as needed */
+  padding-left: 10px; 
+
 }
 .price-info {
   display: flex;
