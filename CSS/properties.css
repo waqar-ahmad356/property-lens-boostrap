@@ -242,13 +242,15 @@
 }
 
 .hero-tabs .nav-item {
-  background-color: rgba(29, 179, 179, 0.1);
+  background-color: #FFFFFF4A;
   /* #1DB3B3 with 30% opacity */
   backdrop-filter: blur(10px);
   /* Adjust the blur intensity as needed */
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 0px;
+ 
+  
 }
+
 
 .hero-filter {
   display: flex;
@@ -256,9 +258,9 @@
   justify-content: flex-start;
   align-items: center;
   padding: 12px 24px;
-  background-color: rgba(29, 179, 179, 0.1);
+  background-color: #FFFFFF4A;
   /* #1DB3B3 with 30% opacity */
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
   /* Adjust the blur intensity as needed */
   -webkit-backdrop-filter: blur(10px);
   border-radius: 8px;

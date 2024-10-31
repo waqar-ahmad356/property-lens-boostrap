@@ -244,7 +244,7 @@
 }
 
 .hero-tabs .nav-item {
-  background-color: rgba(29, 179, 179, 0.1);
+  background-color: #FFFFFF4A;
   /* #1DB3B3 with 30% opacity */
   backdrop-filter: blur(10px);
   /* Adjust the blur intensity as needed */
@@ -258,9 +258,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 24px;
-  background-color: rgba(29, 179, 179, 0.1);
+  background-color: #FFFFFF4A;
   /* #1DB3B3 with 30% opacity */
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
   /* Adjust the blur intensity as needed */
   -webkit-backdrop-filter: blur(10px);
   border-radius: 8px;
@@ -629,6 +629,17 @@
  
 
 }
+/*----------------------services responsive------------------*/
+@media (max-width:768px){
+  .service-btn {
+    padding: 6px 14px;
+    width: 140px;
+    height: 40px;
+    
+    font-size: 12px;
+    
+  }
+}
 
 /*------------------Digital-success----------*/
 .digital-success {
@@ -934,6 +945,13 @@
     text-align: left;
     color: #101828;
   }
+  .identity-description button {
+    padding: 8px 25px;
+    
+    font-size: 14px;
+   
+  }
+  
   
   .identity-btn {
     display: flex;
