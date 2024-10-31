@@ -263,7 +263,8 @@
   backdrop-filter: blur(10px);
   /* Adjust the blur intensity as needed */
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   flex-wrap: nowrap;
   width: 950px;
 }
@@ -405,7 +406,8 @@
     padding: 5px 5px;
     flex-wrap: wrap;
 
-    border-radius: 12px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
   .hero-location p {
     font-size: 14px;
@@ -416,7 +418,7 @@
   }
 
   .hero-city p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .hero-city img {
     display: none;
@@ -431,13 +433,13 @@
   }
 
   .hero-search p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .search-btn button {
-    padding: 8px 14px;
+    padding: 6px 25px;
 
-    font-size: 14px;
+    font-size: 12px;
 
     gap: 5px;
   }
@@ -456,8 +458,8 @@
     align-items: center;
     padding: 5px 5px;
     flex-wrap: wrap;
-
-    border-radius: 12px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
   .hero-content h2{
     font-size: 24px;
