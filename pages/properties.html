@@ -105,15 +105,15 @@
       <span>(109) Found</span>
     </div>
     <div class="find-residence-content-right">
-      <div class="grid lists">
+      <div class="grid lists" style="cursor: pointer;">
         <img src="../assets/grid.png" alt="image" />
         <p>Grid</p>
       </div>
-      <div class="lists">
+      <div class="lists"  style="cursor: pointer;">
         <img src="../assets/list.png" alt="image" />
         <p>List</p>
       </div>
-      <div class="lists">
+      <div class="lists"  style="cursor: pointer;">
         <img src="../assets/table.png" alt="image" />
         <p>Table</p>
       </div>
@@ -128,19 +128,21 @@
       <span>All</span>
     </div>
     <div class="compare-list-right">
-      <div class="grid lists">
+      <div class="grid lists"  style="cursor: pointer;"  onclick="togglePopup()">
         <img src="../assets/list.png" alt="image" />
         <p>Edit</p>
+        
       </div>
-      <div class="delete lists">
+      <div class="delete lists"  style="cursor: pointer;">
         <img src="../assets/d-table.png" alt="image" />
         <p>Delete</p>
       </div>
       <div class="compare-btn">
-        <button>Comparing Listing</button>
+        <button><a href="../pages/listing.html">Compare Listing</a></button>
       </div>
     </div>
   </div>
+  
   <!-----------------------------compare list end------------------------------------->
   <!------------------------------------Filteration start----------------------------->
   <div class="web-container">
@@ -712,6 +714,20 @@
 
     </div>
   </div>
+  <!-- Popup Elements - Place near the end of body -->
+<div class="popup-overlay" id="popupOverlay"></div>
+
+<div class="popup-card" id="popupCard">
+  <div class="popup-card-head">
+    <h3>Edit Windows Details</h3>
+    <img src="../assets/close-icon.png" style="width: 12px;height: 12px;" onclick="togglePopup()"/>
+  </div>
+  <div class="popup-address">
+    <label>Address</label>
+    <input type="text"/>
+  </div>
+  
+</div>
   <!----------------Footer End------------------------>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

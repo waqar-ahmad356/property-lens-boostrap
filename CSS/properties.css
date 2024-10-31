@@ -643,6 +643,70 @@
   line-height: 24px;
   text-align: left;
 }
+.compare-btn button a{
+  text-decoration: none;
+  color: #fff;
+}
+/* Popup card styles */
+.popup-card {
+  display: none; /* Hidden initially */
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: left;
+  z-index: 10000;
+}
+
+/* Overlay background when popup is shown */
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+}
+
+/* Close button inside popup */
+.close-btn {
+  
+  cursor: pointer;
+}
+.popup-card-head{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  
+}
+.popup-card-head h3{
+  margin-bottom: 0;
+  font-family: 'Poppins';
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+}
+.popup-address{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 10px;
+}
+
 /*-----------------------compare responsive------------------*/
 @media (max-width:480px){
   .compare-list.compare-list-left{
@@ -826,7 +890,7 @@
   position: sticky;
   top: 10px;
   border-radius: 12px;
-
+  
   display: flex;
   flex-direction: column;
 

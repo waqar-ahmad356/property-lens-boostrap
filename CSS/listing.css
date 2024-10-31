@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+#table-body tr th,#table-body tr td{
+    font-family: 'Poppins';
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+color:#2A363B;
+
+}
+.table{
+    position: relative;
+}
+.table tr th{
+    font-family: 'Poppins';
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+color: #000000;
+
+
+}
+.filter-card-left-filter {
+    display: none;
+    gap: 0px;
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    border-radius: 12px;
+    z-index: 100;
+    
+    background-color: white;
+  
+    box-shadow: 0px 0px 20px 0px #0000001f;
+  }
+  .show {
+    display: block !important; /* Use this class to make the card visible */
+}
+.dropdown-card {
+    position: absolute;
+    top: 50px; /* Adjust position as needed */
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 200px;
+    z-index: 100;
+}
+.dropdown-card:hover div:hover{
+    background: #F4F5F6;
+
+}
+ 
+
+.column-dropdown-card {
+    position: absolute;
+    top: 50px; /* Adjust based on position */
+    left: 202px; /* Adjust based on position */
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    max-height: fit-content;
+    overflow-y: hidden;
+    z-index: 100;
+}
+
+.dropdown-content-columns label {
+    display: block;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.dropdown-content-columns label:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.dropdown-content-columns{
+   min-height: fit-content;
+}
+
+
+.dropdown-property-type,.dropdown-price-range,.dropdown-portions,.dropdown-outdoor,.dropdown-rooms,.dropdown-portions,.dropdown-parking{
+    max-width: 400px;
+    width: 400px;
+}
+@media (max-width:768px){
+    .filter-card-left-filter {
+        display: none;
+        gap: 0px;
+        position: absolute;
+        top: 600px;
+        right: 10px;
+        border-radius: 12px;
+        z-index: 100;
+        
+        background-color: white;
+      
+        box-shadow: 0px 0px 20px 0px #0000001f;
+      }
+      .dropdown-property-type,.dropdown-price-range,.dropdown-portions,.dropdown-outdoor,.dropdown-rooms,.dropdown-portions,.dropdown-parking{
+        width: 200px;
+      }
+
+}
