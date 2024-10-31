@@ -1201,6 +1201,9 @@ color: #4F5B5D;
 }
 /*--------------------------------filter responsive--------------*/
 @media (max-width: 768px) {
+  .dropdown-price-range{
+    display: none;
+  }
   .filter {
     display: grid;
     grid-template-columns: 1fr;
