@@ -570,6 +570,7 @@
 @media (max-width:1024px){
   .our-services h2 {
     font-size: 28px;
+    
   }
   .services{
     gap:18px ;
@@ -610,9 +611,9 @@
   
   .our-services h2 {
    
-    font-size: 26px;
+    font-size: 28px;
     
-    line-height: 24px;
+    line-height: 36px;
     
   }
   
@@ -774,6 +775,7 @@
   .digital-content h2 {
     
     font-size: 28px;
+    line-height: 36px;
     
   }
   
@@ -937,16 +939,15 @@
     line-height: 18px;
     text-align: left;
     color: #98a2b3;
+    
   }
   
   .identity-content h2 {
-    font-family: "Poppins";
+    
     font-size: 28px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: #101828;
+    
+    line-height: 36px;
+    
   }
   .identity-description button {
     
@@ -1154,7 +1155,7 @@
  
   font-size: 28px;
  
-  line-height: 30px;
+  line-height: 36px;
   
 }
 
@@ -1380,7 +1381,7 @@
     
     font-size: 28px;
     
-    line-height: 35px;
+    line-height: 36px;
    
   }
   
