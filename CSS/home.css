@@ -1246,14 +1246,17 @@
 }
 .form-btn .mail-btn{
   width: 235px;
+  background-color: transparent;
 
 }
 .form-btn .address-btn{
   width: 345px;
+  background-color: transparent;
 
 }
 .form-btn .phone-btn{
   width: 235px;
+  background-color: transparent;
 
 }
 .form-btn button {
