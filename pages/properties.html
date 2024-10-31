@@ -225,8 +225,43 @@
               <img src="/assets/dropdown.png" alt="" />
             </div>
             <div class="dropdown-content">
-              <p>$100,000 - $500,000, $500,000 - $1M, etc.</p>
+           <div class="dropdown-price-range">
+            <div class="range-container">
+              <!-- Min and Max Labels -->
+              <div class="range-label min-label">$0</div>
+              <div class="range-label max-label">$100000</div>
+            
+              <!-- Range Input -->
+              <input type="range" min="0" max="100000" value="25000" class="range-slider">
+              <input type="range" min="0" max="100000" value="75000" class="range-slider">
+            
+              <!-- Static value labels for example only -->
+              <div class="static-label" style="left: 25%;">$20000</div>
+              <div class="static-label" style="left: 63.5%;">$63595</div>
+            
+              <!-- Ticks and labels below the slider -->
+              <div class="range-ticks">
+                <span>0</span>
+                <span>25000</span>
+                <span>50000</span>
+                <span>75000</span>
+                <span>100000</span>
+              </div>
             </div>
+            
+                <div class="dropdown-price-range-input">
+                  <div>
+                  <label>From ($)</label>
+                  <input type="text" placeholder="$20000"/>
+                </div>
+                <div>
+                  <label>To ($)</label>
+                  <input type="text" placeholder="$63595"/>
+                </div>
+                </div>
+              </div>
+              
+            </div> 
           
             <div class="filter-card-left-dropdown" onclick="toggleDropdown(this)">
               <p>Rooms</p>

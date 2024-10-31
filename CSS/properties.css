@@ -893,6 +893,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
  .type-check{
   display: flex;
   gap: 10px;
@@ -926,6 +927,109 @@ line-height: 24px;
 text-align: left;
 color: #1f1f1f;
 
+}
+.dropdown-price-range{
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 34px;
+  max-width: 100%;
+  
+}
+.dropdown-price-range-input{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+ 
+}
+.dropdown-price-range-input div{
+  display: flex ;
+  flex-direction: column;
+  gap:5px;
+}
+.range-container {
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* Range Slider Styling */
+.range-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background-color: #ddd;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px; /* Positions the slider within the container */
+}
+
+/* Custom thumb styling */
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #68cccc;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+ 
+}
+
+.range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #68cccc;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+
+/* Static label styling for example values */
+.static-label {
+  position: absolute;
+  top: -30px;
+  padding: 4px 8px;
+  background-color: #68cccc;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  white-space: nowrap;
+  
+}
+
+/* Min and Max labels */
+.range-label {
+  position: absolute;
+  top: -40px;
+  color: #999;
+  font-weight: bold;
+  font-size: 12px;
+}
+.min-label {
+  left: 0;
+}
+.max-label {
+  right: 0;
+}
+
+/* Ticks and labels */
+.range-ticks {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #333;
+  margin-top: 10px;
+}
+.dropdown-price-range-input input{
+  width: 170px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  padding: 10px 14px;
 }
 .dropdown-rooms{
   display: flex;
