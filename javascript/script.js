@@ -478,12 +478,19 @@ window.addEventListener("click", function(event) {
       dropdown.style.display = "none";
   }
 });
-// JavaScript to toggle the popup visibility
-function togglePopup() {
+// Ensure popup and overlay are hidden on page load
+window.onload = function() {
+  document.getElementById('popupCard').style.display = 'none';
+  document.getElementById('popupOverlay').style.display = 'none';
+};
+ // JavaScript to toggle the popup visibility and add blur effect
+ function togglePopup() {
   const popup = document.getElementById('popupCard');
   const overlay = document.getElementById('popupOverlay');
+  
   const isVisible = popup.style.display === 'block';
   
   popup.style.display = isVisible ? 'none' : 'block';
   overlay.style.display = isVisible ? 'none' : 'block';
+  mainContent.classList.toggle('blurred', !isVisible); // Toggle blur class
 }

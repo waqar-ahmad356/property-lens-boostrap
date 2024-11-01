@@ -105,5 +105,15 @@ color: #000000;
       .dropdown-property-type,.dropdown-price-range,.dropdown-portions,.dropdown-outdoor,.dropdown-rooms,.dropdown-portions,.dropdown-parking{
         width: 200px;
       }
+      
 
+}
+@media (max-width:521px){
+    .column-dropdown-card {
+        
+        top: 150px; /* Adjust based on position */
+        left: 50px; /* Adjust based on position */
+        width: 200px;
+       
+    }
 }
