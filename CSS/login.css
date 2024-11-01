@@ -301,6 +301,21 @@ border: 1px solid  #ECEFF1;
         width: 100%;
         
     }
+    .login-btn button{
+        width: 200px;
+        padding: 12px;
+       
+    
+    
+    
+    }
+    .dashboard-btn button{
+        border-radius: 8px;
+        width: 200px;
+        padding: 12px;
+       
+    
+    
 
 }
 @media (max-width:480px){
