@@ -43,7 +43,15 @@
             </div>
             <div class="bottom-content">
                 <p>Didn't have an account? <a href="../pages/signup.html">Sign Up</a></p>
+                <!-- Trigger Paragraph -->
+<p>Launch the extension tools?
+    <span  data-bs-toggle="modal" data-bs-target="#editModal" style="color: blue; cursor: pointer;">Click here</span>
+  </p>
+  
+ >
+  
             </div>
+          
         </div>
         
         
@@ -53,6 +61,47 @@
     </div>
 </div>
 </div>
+<!--------------------Modal------------------------->
+<div class="modal border-0 "  id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered pb-2 ">
+      <div class="modal-content">
+        <div class="modal-header border-0 d-flex justify-content-between">
+          <h5 class="modal-title" id="editModalLabel"><img src="../assets/logoipsum.png" alt=""/></h5>
+          <img src="../assets/setting-btn.png" alt=""/>
+        </div>
+        <div class="text-center d-flex flex-column justify-content-center align-items-center gap-5">
+          <!-- Modal content goes here -->
+           <div class="d-flex flex-column justify-content-center align-content-center">
+           <img src="../assets/lock-object.png" style="width: 89px;" alt=""/>
+           </div>
+           <div class="d-flex flex-column justify-content-center align-items-center gap-2">
+            <div class="heading">
+           <p>Welcome to the</p>
+           <p>Property Lens Extension</p>
+        </div class="sub-heading">
+           <span>Please login to launch the extension tools</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center gap-3 login-btn">
+           <button  style="background-color: #1DB3B3;color:white">Login to My Account</button>
+           <button style="color:#1DB3B3;">Sign up for Free</button>
+        </div>
+        <div class="d-flex flex-column gap-3 dashboard-btn">
+           <button>Go To the Dashboard</button>
+
+           <span>version 0.0.1</span>
+        </div>
+         
+      
+        </div>
+       
+       
+        </div>
+       </div>
+  
+        
+        </div>
+      </div>
+    </div>
 <!-----------------------------Login End----------------------->
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

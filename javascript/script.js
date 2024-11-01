@@ -479,4 +479,10 @@ window.addEventListener("click", function(event) {
 });
 
 
+// Get the trigger span element and add a click event listener
+document.getElementById("launch-modal-trigger").addEventListener("click", function() {
+  // Initialize and show the Bootstrap modal
+  const modal = new bootstrap.Modal(document.getElementById("extensionModal"));
+  modal.show();
+});
 
