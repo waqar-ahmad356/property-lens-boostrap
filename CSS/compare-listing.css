@@ -30,3 +30,23 @@ color:  #667085;
 .table tbody tr .thead{
     color:black
 }
+.hero-content h2
+{
+    max-width: 737px;
+    width: 737px;
+    font-size: 48px;
+    line-height: 64px;
+}
+.hero-content p
+{max-width: 737px;width: 737px; font-size: 20px; font-weight: 400;}
+
+@media (max-width:768px){
+    .hero-content h2{
+        font-size: 36px;
+        line-height: 46px;
+        max-width: 250px;
+    }
+    .hero-content p{
+        max-width: 250px;
+    }
+}
