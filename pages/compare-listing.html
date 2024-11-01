@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../CSS/properties.css" />
+    <link rel="stylesheet" href="../CSS/compare-listing.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <title>Property Lens</title>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="web-container">
+        <div class="container-fluid">
+            <div class="nav-left">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/logo.png" class="logo" alt="" />
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="../pages/properties.html">Properties</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <button type="button" class="no-bg"><a href="./pages/login.html">LOGIN</a></button>
+                <button type="button" class="header-button "><a href="./pages/signup.html">SIGNUP</a></button>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar End-->
+
+    <!----Hero Start-->
+    <div class="hero">
+        <div class="hero-img">
+            <div class="web-container">
+                <div class="hero-content">
+                    <h2>Compare Property</h2>
+                    <p>Explore exquisite properties. From urban chic to rural serenity, find your dream home. Elevate
+                        your lifestyle – your future home is just a click away</p>
+                    <!-- <div class="hero-tabs">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white" href="#">Buy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white" href="#">Sold</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white" href="#">Agent</a>
+              </li>
+            </ul>
+            <div class="hero-filter">
+              <div class="location">
+                <div class="hero-location">
+                  <p>Location</p>
+
+                  <div class="hero-city">
+                    <p>Select your city</p>
+                    <img src="../assets/location.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="hero-search">
+                <p class="search">Property Type</p>
+                <p>Choose property type</p>
+              </div>
+              <div class="hero-search">
+                <p class="search">Price Range</p>
+                <p>Choose price range</p>
+              </div>
+              <div class="search-btn">
+                <button>
+                  <img src="../assets/search-icon.png" alt="icon" />Search
+                </button>
+              </div>
+            </div>
+          </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------Hero End-------------------------------->
+    <!-----------------------------find residence start------------------------------------->
+    <!-- <div class="find-residence web-container">
+    <div class="find-residence-content-left">
+      <h3>Find Residence Properties</h3>
+      <span>(109) Found</span>
+    </div>
+    <div class="find-residence-content-right">
+      <div class="grid lists" style="cursor: pointer;">
+        <img src="../assets/grid.png" alt="image" />
+        <p>Grid</p>
+      </div>
+      <div class="lists"  style="cursor: pointer;">
+        <img src="../assets/list.png" alt="image" />
+        <p>List</p>
+      </div>
+      <a href="../pages/listing.html" style="text-decoration: none;color: #fff;">
+      <div class="lists"  style="cursor: pointer;">
+        <img src="../assets/table.png" alt="image" />
+        <p>Table</p>
+      </div>
+    </a>
+    </div>
+  </div> -->
+    <!-----------------------------find residence end------------------------------------->
+    <!-----------------------------compare list start------------------------------------->
+    <div class="compare-list web-container mt-5 pb-1">
+        <div class="compare-list-left">
+            <h3>Select to compare</h3>
+            <input type="checkbox" />
+            <span>All</span>
+        </div>
+        <div class="compare-list-right ">
+
+            <!-- Edit Button -->
+            <!-- <div class="grid lists" data-bs-toggle="modal" data-bs-target="#editModal" style="cursor: pointer;">
+  <img src="../assets/list.png" alt="image" />
+  <p>Edit</p>
+</div> -->
+
+            <!-- <div class="delete lists"  style="cursor: pointer;">
+        <img src="../assets/d-table.png" alt="image" />
+        <p>Delete</p>
+      </div> -->
+            <div class="compare-list-right ">
+                <div id="customize-button" class="grid lists"
+                    style="background: #E9F7FD; border: none; cursor: pointer;position: relative;">
+                    <img src="../assets/customize-icon.png" alt="image" />
+                    <p style="color:  #157FA7;">Customize</p>
+                    <!-- Dropdown Card -->
+                    <div id="customize-dropdown" class="dropdown-card" style="display: none;">
+                        <h3 style="padding: 10px; font-size: 1rem; color: #333; border-bottom: 1px solid #eee;">
+                            Customize Table</h3>
+
+                        <div id="column-option" class="dropdown-item"
+                            style=" display: flex; align-items: center; padding: 10px; cursor: pointer;">
+                            <img src="../assets/customize-icon.png" alt="Column Icon" style="margin-right: 10px;" />
+                            <p style="flex-grow: 1;">Column</p>
+                            <span>></span>
+                            <!-- Dropdown Card for Columns -->
+                            <div id="column-dropdown" class="column-dropdown-card"
+                                style="display: none; background-color: #fff;">
+
+                                <div class="dropdown-content-columns" style="background-color: #fff;">
+                                    <!-- Sample list of checkboxes for column options -->
+                                    <label><input type="checkbox" checked /> ListingID</label>
+                                    <label><input type="checkbox" /> Source</label>
+                                    <label><input type="checkbox" /> Property Type</label>
+                                    <label><input type="checkbox" /> Street</label>
+                                    <label><input type="checkbox" /> House Number</label>
+                                    <label><input type="checkbox" /> Source</label>
+                                    <label><input type="checkbox" /> Property Type</label>
+                                    <label><input type="checkbox" /> Street</label>
+                                    <label><input type="checkbox" /> House Number</label>
+                                    <label><input type="checkbox" /> Source</label>
+                                    <label><input type="checkbox" /> Property Type</label>
+                                    <label><input type="checkbox" /> Street</label>
+                                    <label><input type="checkbox" /> House Number</label>
+                                    <label><input type="checkbox" /> Source</label>
+                                    <label><input type="checkbox" /> Property Type</label>
+                                    <label><input type="checkbox" /> Street</label>
+                                    <label><input type="checkbox" /> House Number</label>
+                                    <!-- Add more checkboxes as needed -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-item"
+                            style="display: flex; align-items: center; padding: 10px; cursor: pointer;">
+                            <img src="../assets/customize-icon.png" alt="Row Icon" style="margin-right: 10px;" />
+                            <p style="flex-grow: 1;">Rows</p>
+                            <span>></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="grid lists" style=" border: none; cursor: pointer;">
+          <img src="../assets/list.png" alt="image" />
+          <p>Edit</p>
+        </div> -->
+
+                <!-- <div class="delete lists"style="cursor: pointer;" >
+          
+          <img src="../assets/d-table.png" alt="image" />
+          <p>Delete</p>
+        
+        </div> -->
+
+                <!-- <div class="delete lists" style="background-color:#DCFAE6;cursor: pointer;">
+          <img src="../assets/download.png" alt="image" />
+          <p style="color:#17b26a">Download</p>
+        </div> -->
+                <!-- <div id="filter-button" class="delete lists" style="background-color: #fff; cursor: pointer;">
+          <img src="../assets/filter-icon.png" alt="image" />
+          <p style="color: black;">Filter</p>
+        </div> -->
+                <!-- <div class="compare-btn">
+          <button><a href="../pages/compare-listing.html">Compare Listing</a></button>
+        </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------compare list end------------------------------------->
+    <!------------------------------------Filteration start----------------------------->
+
+
+    <!------------------------------------Filteration end----------------------------->
+    <!--------------compare listing start------------------------------------------->
+    <div class="web-container mt-0 table-responsive">
+        <table class="table ">
+            <thead>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+                    <th style="width: 230px; border: none;"></th>
+                    <th><img src="../assets/tab-img.png" style="width: 230px;" alt="">
+                        <p>1128 Cherokee Street</p>
+                        <span>4 br | 4 ba | 6,165 sf</span>
+                    </th>
+                    <th><img src="../assets/tab-img.png" style="width: 230px;" alt="">
+                        <p>1128 Cherokee Street</p>
+                        <span>4 br | 4 ba | 6,165 sf</span>
+                    </th>
+                    <th><img src="../assets/tab-img.png" style="width: 230px;" alt="">
+                        <p>1128 Cherokee Street</p>
+                        <span>4 br | 4 ba | 6,165 sf</span>
+                    </th>
+                    <th><img src="../assets/tab-img.png" style="width: 230px;" alt="">
+                        <p>1128 Cherokee Street</p>
+                        <span>4 br | 4 ba | 6,165 sf</span>
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">ID</td>
+                    <td>001</td>
+                    <td>002</td>
+                    <td>003</td>
+                    <td>004</td>
+
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Source</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Property Type</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Street</td>
+                    <td>Elm St</td>
+                    <td>Elm St</td>
+                    <td>Elm St</td>
+                    <td>Elm St</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">House Number</td>
+                    <td>23</td>
+                    <td>23</td>
+                    <td>23</td>
+                    <td>23</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Postal Code</td>
+                    <td>10115</td>
+                    <td>10115</td>
+                    <td>10115</td>
+                    <td>10115</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">City</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Purchase Price</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Rooms</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Source</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Property Type</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Source</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+                    <td>Zillow</td>
+
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Property Type</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+                    <td>Apartment</td>
+
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">City</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Purchase Price</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Rooms</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">City</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Purchase Price</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Rooms</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">City</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                    <td>Berlin</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Purchase Price</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                    <td>$50,0000</td>
+                </tr>
+                <tr style="display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr; text-align: left;">
+                    <td class="thead">Rooms</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+
+                </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+    <!--------------compare listing end------------------------------------------->
+    <!----------------Footer Start------------------------>
+    <div class="footer web-container">
+        <div class="footer-left-side-1">
+            <img src="../assets/footer-logo.png" class="footer-logo" alt="" />
+            <p>We are at the interface of real estate expertise and digitalization. We combine industry knowledge with
+                modern
+                technology solutions to successfully lead companies in the real estate industry into the digital future.
+            </p>
+            <img src="./assets/linkedin.png" alt="" />
+        </div>
+        <div class="footer-left-side-2">
+            <h2>Menu</h2>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+
+        </div>
+        <div class="footer-right-side-1">
+            <h2>Company</h2>
+            <ul>
+                <li>Terms @& Condition</li>
+                <li>Imprint</li>
+                <li>Privacy Policy</li>
+
+            </ul>
+
+        </div>
+        <div class="footer-right-side-2">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>
+                    <p style="margin-bottom: 0;">Email Address:</p>
+                    <p style="margin-bottom: 0;">mail@realvation.de</p>
+                </li>
+                <li>
+                    <p style="margin-bottom: 0;">Phone Number:</p>
+                    <p style="margin-bottom: 0;">+49 173 34 43 368</p>
+                </li>
+                <li>
+                    <p style="margin-bottom: 0;">Address:</p>
+                    <p style="margin-bottom: 0;">Berliner Str. 300b, 63065 Offenbach am Main</p>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div class="modal" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Edit Window Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Modal content goes here -->
+                    <label for="exampleInputEmail1" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                </div>
+                <div class="modal-body border-top">
+                    <h4>Equity</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="exampleInputEmail1" class="form-label">Percentage</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="%">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="exampleInputEmail1" class="form-label">Amount</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="$">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-content-center pt-4">
+                        <h4 class="mb-0">Configure interest rate</h4>
+                        <img src="../assets/setting-btn.png" alt="" />
+                    </div>
+                </div>
+                <div class="modal-body border-top">
+                    <h4>Calculated KPIs</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="exampleInputEmail1" class="form-label">Purchasing Cost</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="$">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="exampleInputEmail1" class="form-label">Financing Cost</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="$">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="exampleInputEmail1" class="form-label">Market Data</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="$">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-cancel " data-bs-dismiss="modal">Cancel</button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-save">Save</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!----------------Footer End------------------------>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>
