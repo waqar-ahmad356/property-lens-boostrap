@@ -7,6 +7,13 @@ text-align: left;
 margin-bottom: 0;
 
 }
+.table thead tr .empty-fr{
+    width: 230px;
+}
+.table thead tr th img{
+    width: 230px;
+
+}
 .table thead tr th span{
     font-family: 'Poppins';
 font-size: 18px;
@@ -49,4 +56,32 @@ color:  #667085;
     .hero-content p{
         max-width: 250px;
     }
+    .table thead tr .empty-fr{
+        width: 150px;
+    }
+    .table thead tr th img{
+        width: 150px;
+    
+    }
+    .table thead tr th span{
+        
+    font-size: 14px;
+    
+    
+    
+    }
+    .table thead tr th p{
+        
+    font-size: 14px;
+    
+    
+    }
+    .table tbody tr td{
+       
+    font-size: 12px;
+    
+    
+    
+    }
+    
 }

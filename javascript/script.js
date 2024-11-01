@@ -451,32 +451,32 @@ window.addEventListener("click", function(event) {
       filterCard.classList.remove("show");
   }
 });
-document.getElementById("customize-button").addEventListener("click", function() {
+document.getElementById("customize-button").addEventListener("click", function(event) {
+  event.stopPropagation();
   const dropdown = document.getElementById("customize-dropdown");
   dropdown.style.display = dropdown.style.display === "none" ? "block" : "none";
 });
 
-// Optional: Close dropdown when clicking outside
-window.addEventListener("click", function(event) {
-  const dropdown = document.getElementById("customize-dropdown");
-  const button = document.getElementById("customize-button");
-  if (!dropdown.contains(event.target) && !button.contains(event.target)) {
-      dropdown.style.display = "none";
-  }
-});
+// Optional: Toggle Column Dropdown
 document.getElementById("column-option").addEventListener("click", function(event) {
   event.stopPropagation();
-  const dropdown = document.getElementById("column-dropdown");
-  dropdown.style.display = dropdown.style.display === "none" ? "block" : "none";
+  const columnDropdown = document.getElementById("column-dropdown");
+  columnDropdown.style.display = columnDropdown.style.display === "none" ? "block" : "none";
 });
 
-// Close dropdown if clicking outside
+// Close dropdowns if clicking outside
 window.addEventListener("click", function(event) {
-  const dropdown = document.getElementById("column-dropdown");
-  const columnOption = document.getElementById("column-option");
-  if (!dropdown.contains(event.target) && !columnOption.contains(event.target)) {
-      dropdown.style.display = "none";
+  const customizeDropdown = document.getElementById("customize-dropdown");
+  const columnDropdown = document.getElementById("column-dropdown");
+
+  if (!customizeDropdown.contains(event.target) && event.target.id !== "customize-button") {
+    customizeDropdown.style.display = "none";
+  }
+
+  if (!columnDropdown.contains(event.target) && event.target.id !== "column-option") {
+    columnDropdown.style.display = "none";
   }
 });
+
 
 
